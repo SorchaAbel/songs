@@ -2,6 +2,7 @@ require 'sinatra'
 require 'slim'
 require 'sinatra/reloader' if development?
 
+
 get '/' do
   @title = 'All About Home'
   slim :home
